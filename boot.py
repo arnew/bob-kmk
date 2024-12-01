@@ -3,9 +3,8 @@ import board
 from kmk.bootcfg import bootcfg
 
 bootcfg(
-    # sense=board.GP28_A2, 
-    sense=board.GP16,
-    source=board.GP8,
+    sense=board.GP0,
+    source=board.GP17,
     midi=False,
     mouse=False,
     storage=False,
